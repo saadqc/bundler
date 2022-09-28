@@ -1,0 +1,4 @@
+bundle.egg-info
+dist
+.idea/
+src/static_bundler.egg-info

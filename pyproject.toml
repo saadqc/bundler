@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=31.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "static-bundler"
+version = "0.0.1"
+authors = [
+  { name="Saad Abdullah", email="saadfast.qc@gmail.com" },
+]
+description = "Bundles multiple css/js files into one and reduce request time"
+readme = "README.md"
+license = { file="LICENSE.rst" }
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/saadqc/bundler.git"
+"Bug Tracker" = "https://github.com/saadqc/bundler/issues"
